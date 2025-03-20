@@ -12,11 +12,12 @@ namespace Event
         public event ImageProcessingEndTrigger ProcessEnd;
         public void ProcessImageSize()
         {
-            for (int i = 0; i < 201; i++)
+            ProcessEnd?.Invoke();
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine($"Muhammad IS  A GOOD boy {i}");
             }
-            ProcessEnd?.Invoke();
+            
 
         }
     }

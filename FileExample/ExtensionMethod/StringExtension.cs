@@ -8,9 +8,16 @@ namespace ExtensionMethod
 {
     public static class StringExtension
     {
-        public static string ToShortString(this string text, int length)
+        public static string ToShortString(this string orginalText, int length)
         {
-
+           if(length > orginalText.Length)
+            {
+                return orginalText;
+            }
+            else
+            {
+                return orginalText.Substring(0, length) + "...";
+            }
         }
     }
 }

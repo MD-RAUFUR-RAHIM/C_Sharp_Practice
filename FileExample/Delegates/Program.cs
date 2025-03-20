@@ -26,7 +26,7 @@ var result2 = sort2.Sort(persons, ComparePerson);
 bool ComparePerson(Person person1, Person person2)
 {
     if (person1.Name.CompareTo(person2.Name) == 0)
-        return person1.Age < person2.Age;
+        return person1.Age > person2.Age;
     else
         return person1.Name.CompareTo(person2.Name) > 0;
 }

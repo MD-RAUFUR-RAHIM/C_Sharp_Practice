@@ -17,3 +17,8 @@ Person person = (Person)defaultConstructor.Invoke(new object[] {  });
 MethodInfo talkMethod = type.GetMethod("Talk",BindingFlags.Instance | 
     BindingFlags.NonPublic, new Type[] { typeof(string) });
 talkMethod.Invoke(person, new object[] {"Hello Person"});
+
+MethodInfo walkMethod = type.GetMethod("Walk", BindingFlags.Instance |
+    BindingFlags.Public, new Type[] { typeof(int) });
+
+walkMethod.Invoke(person, new object[] { 10 });
