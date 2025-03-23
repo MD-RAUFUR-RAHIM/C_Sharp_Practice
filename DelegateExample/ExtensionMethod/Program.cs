@@ -8,4 +8,3 @@ person.Name = "Maruf";
 person.Address = "Tangail";
 string info = person.GetInfo();
 Console.WriteLine(info);
-Console.ReadKey();  
