@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethod", "Extensio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionExample", "ReflectionExample\ReflectionExample.csproj", "{FA2CC727-372A-49C9-8B18-190EB2FE79C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializer", "ObjectInitializer\ObjectInitializer.csproj", "{C08D5B59-A6A8-4B66-B7D4-24CF36C0288F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionIntializer", "CollectionIntializer\CollectionIntializer.csproj", "{FC76F8B8-0549-458C-8431-39749FE6AA8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{FA2CC727-372A-49C9-8B18-190EB2FE79C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA2CC727-372A-49C9-8B18-190EB2FE79C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA2CC727-372A-49C9-8B18-190EB2FE79C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08D5B59-A6A8-4B66-B7D4-24CF36C0288F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08D5B59-A6A8-4B66-B7D4-24CF36C0288F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08D5B59-A6A8-4B66-B7D4-24CF36C0288F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08D5B59-A6A8-4B66-B7D4-24CF36C0288F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC76F8B8-0549-458C-8431-39749FE6AA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC76F8B8-0549-458C-8431-39749FE6AA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC76F8B8-0549-458C-8431-39749FE6AA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC76F8B8-0549-458C-8431-39749FE6AA8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
