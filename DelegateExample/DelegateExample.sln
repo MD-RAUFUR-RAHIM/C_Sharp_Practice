@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreetingExpressionExample2"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsturctingStatementsUsingExpression", "ConsturctingStatementsUsingExpression\ConsturctingStatementsUsingExpression.csproj", "{8B504C9E-FE87-4E12-B11C-3421FC492D0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsturctingDynamicStatementsUsingExpression", "ConsturctingDynamicStatementsUsingExpression\ConsturctingDynamicStatementsUsingExpression.csproj", "{820ECDBD-FB01-4C63-A680-81A841DD04B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsturctingDynamicStatementsUsingExpression2", "ConsturctingDynamicStatementsUsingExpression2\ConsturctingDynamicStatementsUsingExpression2.csproj", "{3086743F-78A7-46F6-8A25-22105D27902A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{8B504C9E-FE87-4E12-B11C-3421FC492D0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8B504C9E-FE87-4E12-B11C-3421FC492D0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8B504C9E-FE87-4E12-B11C-3421FC492D0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820ECDBD-FB01-4C63-A680-81A841DD04B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820ECDBD-FB01-4C63-A680-81A841DD04B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820ECDBD-FB01-4C63-A680-81A841DD04B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820ECDBD-FB01-4C63-A680-81A841DD04B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3086743F-78A7-46F6-8A25-22105D27902A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3086743F-78A7-46F6-8A25-22105D27902A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3086743F-78A7-46F6-8A25-22105D27902A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3086743F-78A7-46F6-8A25-22105D27902A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
