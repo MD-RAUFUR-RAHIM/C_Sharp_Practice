@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsturctingDynamicStatemen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsturctingDynamicStatementsUsingExpression2", "ConsturctingDynamicStatementsUsingExpression2\ConsturctingDynamicStatementsUsingExpression2.csproj", "{3086743F-78A7-46F6-8A25-22105D27902A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptimizingReflection", "OptimizingReflection\OptimizingReflection.csproj", "{713FD9C2-2C19-4873-A787-E3434B6E3440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericOperatorsUsingExpression", "GenericOperatorsUsingExpression\GenericOperatorsUsingExpression.csproj", "{34717D71-5A40-482B-B524-43A0B4D91D81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{3086743F-78A7-46F6-8A25-22105D27902A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3086743F-78A7-46F6-8A25-22105D27902A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3086743F-78A7-46F6-8A25-22105D27902A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713FD9C2-2C19-4873-A787-E3434B6E3440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713FD9C2-2C19-4873-A787-E3434B6E3440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713FD9C2-2C19-4873-A787-E3434B6E3440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713FD9C2-2C19-4873-A787-E3434B6E3440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34717D71-5A40-482B-B524-43A0B4D91D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34717D71-5A40-482B-B524-43A0B4D91D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34717D71-5A40-482B-B524-43A0B4D91D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34717D71-5A40-482B-B524-43A0B4D91D81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
