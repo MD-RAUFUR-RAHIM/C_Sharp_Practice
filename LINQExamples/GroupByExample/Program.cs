@@ -17,3 +17,11 @@ foreach(var group in  groupByAge)
         Console.WriteLine($"  {person.Name}");
     }
 }
+var names = people.Select(person => person.Name);
+Console.WriteLine();
+Console.WriteLine("Using Select to Transform Data");
+Console.WriteLine("------------------------------");
+foreach (var name in names)
+{
+    Console.WriteLine(name);
+}
