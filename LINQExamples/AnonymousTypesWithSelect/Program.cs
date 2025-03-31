@@ -46,10 +46,7 @@ var groupByCategory = people.Select(
         person.Age < 25 ? "Young" :
         person.Age < 40 ? "Adult" :
         person.Age < 50 ? "Middle Aged" : "Senior"
-    }).GroupBy(person => new
-    {
-        person.Category
-    } );
+    }).GroupBy(person =>person.Category);
 Console.WriteLine();
 Console.WriteLine("People Grouped by Category");
 Console.WriteLine("----------------------------");

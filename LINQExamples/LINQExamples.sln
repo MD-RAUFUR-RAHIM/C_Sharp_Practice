@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhereExample", "WhereExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousTypesWithSelect", "AnonymousTypesWithSelect\AnonymousTypesWithSelect.csproj", "{FD42D7E1-10DC-4CBC-81AF-EF10DEE83EB0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAggregationCountWithGroup", "SimpleAggregationCountWithGroup\SimpleAggregationCountWithGroup.csproj", "{91FF720E-401C-41B5-AF28-22517D592003}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{FD42D7E1-10DC-4CBC-81AF-EF10DEE83EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD42D7E1-10DC-4CBC-81AF-EF10DEE83EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD42D7E1-10DC-4CBC-81AF-EF10DEE83EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91FF720E-401C-41B5-AF28-22517D592003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91FF720E-401C-41B5-AF28-22517D592003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91FF720E-401C-41B5-AF28-22517D592003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91FF720E-401C-41B5-AF28-22517D592003}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
