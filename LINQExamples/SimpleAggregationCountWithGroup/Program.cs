@@ -37,10 +37,11 @@ Console.WriteLine();
 
 var youngestOfAll = person.Min(p => p.Age);
 var eldestOfAll = person.Max(p => p.Age);
-var youngestPerson = person.Where(p => p.Age == person.Min(p => p.Age));
+var youngestPerson = person.Where(p => p.Age == person.Min(p => p.Age)).First();// Commented line and this line does the same thing in different approach
+//var youngestPerson = person.OrderBy(p => p.Age).First();
 var eldestPerson = person.OrderBy(person => person.Age).Last();
 
-//Console.WriteLine($"Youngest Person of All {youngestPerson.Name} is {youngestOfAll} years old");
+Console.WriteLine($"Youngest Person of All {youngestPerson.Name} is {youngestOfAll} years old");
 Console.WriteLine($"Eldest Person of All {eldestPerson.Name} is {eldestOfAll} years old");
 Console.WriteLine();
 
