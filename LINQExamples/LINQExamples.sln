@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAggregationCountWithG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqMethodAggregate", "LinqMethodAggregate\LinqMethodAggregate.csproj", "{9FAC1B31-5328-4AC1-A239-3E40F60B5B90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SetOperationsInLinq", "SetOperationsInLinq\SetOperationsInLinq.csproj", "{5C5B8D07-8475-4969-B0C4-678C8EFBE51D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{9FAC1B31-5328-4AC1-A239-3E40F60B5B90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FAC1B31-5328-4AC1-A239-3E40F60B5B90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FAC1B31-5328-4AC1-A239-3E40F60B5B90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C5B8D07-8475-4969-B0C4-678C8EFBE51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C5B8D07-8475-4969-B0C4-678C8EFBE51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C5B8D07-8475-4969-B0C4-678C8EFBE51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C5B8D07-8475-4969-B0C4-678C8EFBE51D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
