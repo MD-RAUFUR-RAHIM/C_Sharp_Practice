@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricDifferenceUsingLin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JoinInLinq", "JoinInLinq\JoinInLinq.csproj", "{C31C4721-0712-41AC-8334-83965B295F55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupJoinInLinq", "GroupJoinInLinq\GroupJoinInLinq.csproj", "{CFBA1883-F50C-4300-9795-C8041F310425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FullOuterJoin", "FullOuterJoin\FullOuterJoin.csproj", "{16ECF0A3-8E87-44C8-ABC6-2DBB18D309E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{C31C4721-0712-41AC-8334-83965B295F55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C31C4721-0712-41AC-8334-83965B295F55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C31C4721-0712-41AC-8334-83965B295F55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBA1883-F50C-4300-9795-C8041F310425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBA1883-F50C-4300-9795-C8041F310425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBA1883-F50C-4300-9795-C8041F310425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBA1883-F50C-4300-9795-C8041F310425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16ECF0A3-8E87-44C8-ABC6-2DBB18D309E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ECF0A3-8E87-44C8-ABC6-2DBB18D309E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16ECF0A3-8E87-44C8-ABC6-2DBB18D309E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16ECF0A3-8E87-44C8-ABC6-2DBB18D309E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
